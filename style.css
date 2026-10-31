@@ -1,0 +1,58 @@
+
+/* Rouge: #E74C3C */
+body{
+    padding: 0;
+    margin:0;
+    background-color:#FFFFFF;
+}
+h3{
+    font-size:large;
+    font: Poppins;
+}
+#header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+#nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color:#2C3E50;
+}
+#ul{
+    align-items: center;
+    display: flex;
+    gap:30px;
+    margin-right: 80px;
+}
+#hero{
+    height: 100%;
+    background-color: #ECF0F1;
+}
+.navigation{
+    color:#ECF0F1;
+    list-style: none;
+    font-size: large;
+    font: Poppins;
+    transition: transform 0.3s;
+}
+.navigation:hover{
+    color: #ECF0F1;
+    transform:scale(1.1)
+}
+#logo{
+    margin-left: 40px;
+}
+.hero-left-in{
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+.imeg-hero{
+    border-radius: 15px;
+}
+.h3-hero{
+    margin-left: 50px;
+}
