@@ -3,7 +3,7 @@
 body{
     padding: 0;
     margin:0;
-    background-color:#FFFFFF;
+    background-color: #ECF0F1;
 }
 h3{
     font-size:large;
@@ -15,11 +15,12 @@ h3{
     display: flex;
 }
 #nav-bar{
+    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-     background-color:#2C3E50;
+    background-color:#2C3E50;
 }
 #ul{
     align-items: center;
@@ -27,19 +28,24 @@ h3{
     gap:30px;
     margin-right: 80px;
 }
-#hero{
+#contineir-hero{
     height: 100%;
     background-color: #ECF0F1;
+    display: grid;
+    gap:10px;
 }
 .navigation{
-    color:#ECF0F1;
     list-style: none;
+}
+.navigation a{
+    color:#ECF0F1;
+    display: inline-block;
+    text-decoration: none;
     font-size: large;
     font: Poppins;
     transition: transform 0.3s;
 }
-.navigation:hover{
-    color: #ECF0F1;
+.navigation a:hover{
     transform:scale(1.1)
 }
 #logo{
@@ -49,10 +55,26 @@ h3{
     padding: 40px;
     display: flex;
     gap: 20px;
+    background-color: #2C3E50;
 }
 .imeg-hero{
     border-radius: 15px;
 }
+.h1-hero{
+    color:#2C3E50;
+    font: Poppins
+}
+.h2-hero{
+    color:#2C3E50;
+    font:Poppins;
+}
 .h3-hero{
     margin-left: 50px;
+    color:#ECF0F1;
+    border-radius: 15px;
+}
+#hero-first{
+    padding: 230px;
+    border-radius: 15px;
+    background-color:  #ECF0F1;
 }
